@@ -147,6 +147,7 @@ urlpatterns = [
                 path("", include("pizzas.api.urls")),
                 path("", include("photos.api.urls")),
                 path("", include("pushnotifications.api.urls")),
+                path("", include("payments.api.urls")),
             ]
         ),
     ),
